@@ -1,0 +1,52 @@
+h3{
+    color: black;
+    font-size: 50;
+    background-color:red;
+    border-radius: 30;
+    text-align: center;
+    font-weight: 500;
+    text-overflow: 700;
+    text-overflow: 30;
+   
+}
+.t_upper{
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+.t_lower{
+    text-transform: lowercase;
+    text-decoration: solid;
+}
+.t_cap{
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-decoration: underline overline line-through;
+
+}
+.t_center{
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 0cqmax;
+    text-decoration: underline;
+
+    text-shadow: 15px 17px 4px orange;
+    text-align: center;
+    font-size: 70px;
+    color:brown;
+}
+.t_indent{
+    text-indent: 40px;
+   
+}
+.l_space{
+    letter-spacing: 10px;
+}
+.w_space{
+    letter-spacing: 10px;
+}
+.t_shadow{
+    text-shadow: 15px 17px 4px red;
+    text-align: center;
+    font-size: 70px;
+    color:black;
+}
