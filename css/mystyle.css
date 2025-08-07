@@ -50,3 +50,30 @@ h3{
     font-size: 70px;
     color:black;
 }
+.b_shadow{
+    box-shadow: 7px 9px 8px brown ;
+    height: 300px;
+    width: 500;    
+}
+.d_shadow{
+    filter :drop-shadow( 5px 7px 8px red(24,123,192));
+}
+
+.t_size {
+    font-size: 30px;
+    text-align: center;
+}
+.t_col{
+    color: brown;
+    background-color: aquamarine;
+}
+#bg{
+    background-color: pink;
+    text-align: center;
+     box-shadow: 7px 9px 8px brown ;
+    
+}
+#tq{
+    font-size: 30px;
+    color: aqua;
+}
