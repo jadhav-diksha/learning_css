@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+            animation: animation;
+            -webkit-animation: animation;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-direction: alternate-reverse;
+            background-position: center;
+            box-shadow: 7px 9px 8px aquamarine;
+            
+        }
+        @keyframes animation
+        {
+            /* 0%{background-color: brown;left:0px;top:0px}
+             25%{background-color:plum;left:300px;top:0px}
+              50%{background-color:peru;left:300px;top:300px}
+               75%{background-color: aqua;left:0px;top:300px}
+                100%{background-color: slateblue;left:0px;top:0px} */
+
+                0%{background-image:url('images/butterfly.jpeg');left:0px;top:0px}
+             25%{background-image:url('images/naute.png');left:900px;top:0px}
+              50%{background-image:url('images/india.jpg');left:300px;top:300px}
+               75%{background-image:url('images/clock.jpeg');left:0px;top:300px}
+                100%{background-image:url('images/butterfly.jpeg');left:0px;top:0px}
+        }
+    </style>
+</head>
+<body>
+    
+    <div></div>
+</body>
+</html>

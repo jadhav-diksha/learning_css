@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    .flex-container1{
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            justify-content:center;
+            align-items:center;
+            list-style:none;
+            
+        }
+        .box66{
+        
+            border:4px solid black;
+            background-color: turquoise;
+            margin: 10px;
+            width: 200px;
+            height:150px;
+            color:black;
+            text-align:center;
+            font-size:30px;
+            transition: transform 5s ease-in;
+        }
+        .box1:hover{
+            transform: translate(125px,125px);
+        }
+         .box2:hover{
+            transform: translateX(125px);
+        }
+         .box3:hover{
+            transform: translateY( 125px);
+        }
+         .box4:hover{
+            transform: Rotate(18deg);
+        }
+         .box5:hover{
+            transform: skewX(20deg);
+        }
+         .box6:hover{
+            transform: skewY(20deg);
+        }
+         .box7:hover{
+            transform: skew(20deg,20deg);
+        }
+         .box8:hover{
+            transform: scale(1.4);
+        }
+         .box9:hover{
+            transform: scale(2) rotate(90deg) translate(100px);
+        }
+        .img-wrapper{
+            width: 400px;
+            height: 300px;
+            border: 2px solid brown;
+            position: relative;
+            overflow:hidden;
+        }
+        .inner-img{
+            width: 100%;
+            height: 100%;
+            transition: 3s;
+        }
+        .inner-img:hover{
+            transform: scale(1.5);
+        }
+         .img-wrapper1:hover{
+            width: 300px;
+            height: 300px;
+            border: 2px solid red;
+            position: relative;
+            overflow:hidden;
+           transform: translate(125px,125px);
+            
+            
+        }
+         .img-wrapper2:hover{
+            width: 300px;
+            height: 300px;
+            border: 2px solid red;
+            position: relative;
+            overflow:hidden;
+            transform: skewX(20deg);
+            
+            
+        }
+        
+    </style>
+</head>
+<body>
+      <div class="flex-container1">
+        <div class="box66 box1">Translate x & y</div>
+        <div class="box66 box2">Translate x</div>
+        <div class="box66 box3">Translate y</div>
+        <div class="box66 box4">Rotate</div>
+        <div class="box66 box5">skewX</div>
+        <div class="box66 box6">skewY</div>
+        <div class="box66 box7">skew</div>
+        <div class="box66 box8">scale</div>
+        <div class="box66 box9">Multiple</div>  
+        
+    
+    <div class="img-wrapper">
+        <img src="images/butterfly.jpeg" class="inner-img" alt="butterfly">
+        
+   </div>
+     <div class="img-wrapper1">
+        <img src="images/india.jpg" class="inner-img1" alt="sun">
+    </div>
+    <div class="img-wrapper2">
+        <img src="images/naute.png" class="inner-img1" alt="sun">
+    </div>
+</div>
+</body>
+</html>
