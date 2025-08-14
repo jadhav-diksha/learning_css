@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text-container{
+            display: flex;
+            justify-content:center;
+            letter-spacing: 4px;
+            font-size: 70px;
+            font-weight: 900;
+            margin:190px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+         .text-container>b{
+            height: 80px;
+            box-shadow: 0px 5px 8px papayawhip;
+            background: linear-gradient(to right,white,orange,white,orange);
+            background-clip: text;
+            color: transparent;
+            transform-origin: bottom;
+            transform: rotateX(-70deg);
+            animation: getup 5s infinite;
+
+         }
+          .text-container>b:nth-child(1){animation-delay: 0s;}
+           .text-container>b:nth-child(2){animation-delay: 0.25s;}
+            .text-container>b:nth-child(3){animation-delay: 0.50s;}
+             .text-container>b:nth-child(4){animation-delay: 0.75s;}
+              .text-container>b:nth-child(5){animation-delay: 0.90s;}
+               .text-container>b:nth-child(6){animation-delay: 1s;}
+
+               @keyframes getup{
+                from{transform: rotateX(-70deg);}
+                10%,50%{transform: rotateX(-0);}
+                60%,to{transform: rotateX(-70deg);}
+
+               }
+
+    </style>
+
+
+</head>
+<body bgcolor="black">
+    <div class="text-container">
+    <b>D</b>  <b>I</b> <b>K</b>  <b>S</b>  <b>H</b>  <b>A</b>
+    </div>
+</body>
+</html>
